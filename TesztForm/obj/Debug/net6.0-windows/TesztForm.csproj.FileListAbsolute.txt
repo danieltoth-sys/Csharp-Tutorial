@@ -1,0 +1,17 @@
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\bin\Debug\net6.0-windows\TesztForm.exe
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\bin\Debug\net6.0-windows\TesztForm.deps.json
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\bin\Debug\net6.0-windows\TesztForm.runtimeconfig.json
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\bin\Debug\net6.0-windows\TesztForm.dll
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\bin\Debug\net6.0-windows\TesztForm.pdb
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.csproj.AssemblyReference.cache
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.Form1.resources
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.csproj.GenerateResource.cache
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.AssemblyInfoInputs.cache
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.AssemblyInfo.cs
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.csproj.CoreCompileInputs.cache
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.dll
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\refint\TesztForm.dll
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.pdb
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\TesztForm.genruntimeconfig.cache
+C:\Users\javor\source\repos\ConsoleApp6\TesztForm\obj\Debug\net6.0-windows\ref\TesztForm.dll
