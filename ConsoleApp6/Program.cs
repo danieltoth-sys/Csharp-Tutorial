@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Dátumkezelés alapfok
-            DateTime dateTime= DateTime.Now;
+            DateTime dateTime = DateTime.Now;
 
             int day = dateTime.Day;
             //Hibakezelés
@@ -24,10 +24,10 @@
             {
                 Console.WriteLine("Kisebb");
             }
-                     
+
             Console.WriteLine(dateTime.ToString());
-            Console.WriteLine(day.ToString());     
-            
+            Console.WriteLine(day.ToString());
+
             //Sok if helyett ez inkább :)
             switch (day)
             {
@@ -42,7 +42,19 @@
             }
             int a = 10;
             int b = 20;
-            Console.WriteLine(Tutorial.Fizetendo(a,b));
+            Console.WriteLine(Tutorial.Fizetendo(a, b));
+
+            string laci = " Laci ";
+            string be = Console.ReadLine();
+
+            if (laci.Trim().ToLower() == be.Trim().ToLower())
+            {
+                Console.WriteLine("Fasza");
+            }
+            else
+            {
+                Console.WriteLine("nem fasza");
+            }
         }
     }
 
