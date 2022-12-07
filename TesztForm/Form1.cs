@@ -21,7 +21,7 @@ namespace TesztForm
         private void UpdatePoints(int num)
         {
             points += num;            
-            if (points <= 0)
+            if (points <= -1)
             {
                 MessageBox.Show("Vesztettél! Új játék!");
                 points = 0;
