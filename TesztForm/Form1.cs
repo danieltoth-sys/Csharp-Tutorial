@@ -44,7 +44,7 @@ namespace TesztForm
         {
             try
             {
-                if (Convert.ToInt32(guessNumber) <= solutionNumber)
+                if (Convert.ToInt32(guessNumber) < solutionNumber)
                 {
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");                    
                     UpdatePoints(1);
@@ -70,7 +70,7 @@ namespace TesztForm
         {
             try
             {
-                if (Convert.ToInt32(guessNumber) >= solutionNumber)
+                if (Convert.ToInt32(guessNumber) > solutionNumber)
                 {
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");
                     UpdatePoints(1);
