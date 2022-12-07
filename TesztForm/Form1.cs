@@ -44,7 +44,7 @@ namespace TesztForm
         {
             try
             {
-                if (Convert.ToInt32(guessNumber) < solutionNumber)
+                if (Convert.ToInt32(guessNumber) <= solutionNumber)
                 {
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");                    
                     UpdatePoints(1);
@@ -65,7 +65,7 @@ namespace TesztForm
         {
             try
             {
-                if (Convert.ToInt32(guessNumber) > solutionNumber)
+                if (Convert.ToInt32(guessNumber) >= solutionNumber)
                 {
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");
                     UpdatePoints(1);
@@ -84,7 +84,10 @@ namespace TesztForm
 
         private void newgame_Click(object sender, EventArgs e)
         {
-            setRandom();            
+            MessageBox.Show("Új játék!");
+            points = 0;
+            label1.Text = "Pontszámod: 0";
+            setRandom();
         }
     }
 }
