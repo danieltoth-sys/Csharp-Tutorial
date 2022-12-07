@@ -28,46 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ifgreat = new System.Windows.Forms.Button();
+            this.ifless = new System.Windows.Forms.Button();
+            this.newgame = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1127, 639);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 78);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Gombocska";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 30);
+            this.label1.Size = new System.Drawing.Size(149, 30);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Hello world";
+            this.label1.Text = "Pontszámod: 0";
             // 
-            // textBox1
+            // ifgreat
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(57, 89);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(283, 29);
-            this.textBox1.TabIndex = 2;
+            this.ifgreat.Location = new System.Drawing.Point(122, 402);
+            this.ifgreat.Name = "ifgreat";
+            this.ifgreat.Size = new System.Drawing.Size(179, 68);
+            this.ifgreat.TabIndex = 2;
+            this.ifgreat.Text = "nagyobb";
+            this.ifgreat.UseVisualStyleBackColor = true;
+            this.ifgreat.Click += new System.EventHandler(this.ifgreat_Click);
+            // 
+            // ifless
+            // 
+            this.ifless.Location = new System.Drawing.Point(495, 402);
+            this.ifless.Name = "ifless";
+            this.ifless.Size = new System.Drawing.Size(179, 68);
+            this.ifless.TabIndex = 3;
+            this.ifless.Text = "kisebb";
+            this.ifless.UseVisualStyleBackColor = true;
+            this.ifless.Click += new System.EventHandler(this.ifless_Click);
+            // 
+            // newgame
+            // 
+            this.newgame.Location = new System.Drawing.Point(299, 579);
+            this.newgame.Name = "newgame";
+            this.newgame.Size = new System.Drawing.Size(179, 68);
+            this.newgame.TabIndex = 4;
+            this.newgame.Text = "Új játék";
+            this.newgame.UseVisualStyleBackColor = true;
+            this.newgame.Click += new System.EventHandler(this.newgame_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(356, 210);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 32);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Szám";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(836, 690);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.newgame);
+            this.Controls.Add(this.ifless);
+            this.Controls.Add(this.ifgreat);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -76,9 +103,10 @@
         }
 
         #endregion
-
-        private Button button1;
         private Label label1;
-        private TextBox textBox1;
+        private Button ifgreat;
+        private Button ifless;
+        private Button newgame;
+        private Label label2;
     }
 }

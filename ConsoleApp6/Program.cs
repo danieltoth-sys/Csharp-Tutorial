@@ -40,6 +40,7 @@
                 default:
                     break;
             }
+
             int a = 10;
             int b = 20;
             Console.WriteLine(Tutorial.Fizetendo(a, b));
@@ -54,8 +55,8 @@
             else
             {
                 Console.WriteLine("nem fasza");
-            }
-        }
+            }            
+        }        
     }
 
     public class Tutorial
