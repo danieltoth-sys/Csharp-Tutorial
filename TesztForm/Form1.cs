@@ -49,6 +49,11 @@ namespace TesztForm
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");                    
                     UpdatePoints(1);
                 }
+                else if (Convert.ToInt32(guessNumber) == solutionNumber)
+                {
+                    MessageBox.Show("Ugyanaz a két szám! Nem jár pont! A szám: " + solutionNumber + " volt");
+                    UpdatePoints(0);
+                }
                 else
                 {
                     MessageBox.Show("Gratulálunk, vesztettél! -1 pont! A szám: " + solutionNumber + " volt");
@@ -69,6 +74,11 @@ namespace TesztForm
                 {
                     MessageBox.Show("Gratulálunk, nyertél! +1 pont! A szám: " + solutionNumber + " volt");
                     UpdatePoints(1);
+                }
+                else if (Convert.ToInt32(guessNumber) == solutionNumber)
+                {
+                    MessageBox.Show("Ugyanaz a két szám! Nem jár pont! A szám: " + solutionNumber + " volt");
+                    UpdatePoints(0);
                 }
                 else
                 {
